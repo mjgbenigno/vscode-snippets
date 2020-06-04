@@ -1,0 +1,72 @@
+{
+	"Reddit Link":{
+		"scope": "markdown",
+		"prefix": "link",
+		"body": "[$1]($2)",
+		"description": "Add linkable syntax"
+	},
+
+	"[Reddit] Spoiler Tag":{
+		"scope": "markdown",
+		"prefix": "spoiler",
+		"body": ">!$1!<",
+		"description": "[Reddit] add spoiler syntax"
+	},
+
+	"[Reddit] Non-breakable space":{
+		"scope": "markdown",
+		"prefix": "break",
+		"body": "&#x200b;",
+		"description": "[Reddit] Insert blank space"
+	},
+
+	"[Reddit] Superscript":{
+		"scope": "markdown",
+		"prefix": "super",
+		"body": "^($1)",
+		"description": "[Reddit] add superscript"
+	},
+
+	"[Reddit] medium page-break":{
+		"scope": "markdown",
+		"prefix": "medbreak",
+		"body":[
+			"&#x200b;",
+			"",
+			"___",
+			"",
+			"&#x200b;",
+			"$1"
+		],
+		"description": "[Reddit] insert medium style page break"
+	},
+
+	"[Reddit] Large page-break":{
+		"scope": "markdown",
+		"prefix": "largebreak",
+		"body":[
+			"&#x200b;",
+			"",
+			"&#x200b;",
+			"",
+			"___",
+			"",
+			"&#x200b;",
+			"",
+			"&#x200b;",
+			"$1"
+		],
+		"description": "[Reddit] insert large style page break"
+	},
+
+	"[Reddit] Code Block":{
+		"scope": "markdown",
+		"prefix": "codeb",
+		"body": [
+			"```",
+			"$1",
+			"```"
+		],
+		"description": "[Reddit] Insert fancy block of code"
+	}
+}
